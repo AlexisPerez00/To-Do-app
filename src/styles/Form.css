@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+form {
+    margin-top: 150px;
+
+}
+
+form input {
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.form-button {
+    background-color: rgb(5, 75, 107);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px;
+    font-size: larger;
+
+}
