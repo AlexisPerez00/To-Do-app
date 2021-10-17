@@ -3,9 +3,10 @@ import React, { createContext, useState } from 'react'
 const TaskContext = createContext()
 
 const TaskProvider = ({children}) => {
-    const [allTask, setAllTask] = useState([])
     const [list, setList] = useState([])
+    const [allTask, setAllTask] = useState([])
     const [taskDelete, setTaskDelete] = useState([])
+
 
     const handleSubmit = (task, id, statusTask) => {
         setAllTask(list)
@@ -13,7 +14,7 @@ const TaskProvider = ({children}) => {
             alert("Por favor escriba una tarea")
         }
         else(
-            setList(...list, {task, id, statusTask })
+            setList([...list, {task, id, statusTask }])
             
         )
      }

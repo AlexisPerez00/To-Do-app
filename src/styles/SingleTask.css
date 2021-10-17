@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.card-content {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;    background-color: rgb(252, 202, 137);
+    color: black;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+.text-complete {
+    font-size: large;
+    width: 100%;
+}
+
+.card-content button {
+    width: fit-content;
+    cursor: pointer;
+    height: fit-content;
+    padding: 15px;
+}
+
+.text-delete {
+    text-decoration: line-through;
+}
+
+.btn-complete {
+    color: #fffbff;
+    background-color: rgb(25, 121, 25);
+    border: 0;
+}
+
+
+
+.btn-marked {
+    color: #fffbff;
+    background-color: goldenrod;
+    border: 0;
+}
+
+
+
+.btn-delete {
+    color: #fffbff;
+    background-color: rgb(177, 29, 29);
+    border: 0;
+}
+

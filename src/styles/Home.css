@@ -5,8 +5,28 @@
     flex-direction: column;
 }
 
-.main {
-    background-color: rgb(255, 195, 143);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.filterAll {
+    background-color: rgb(245, 206, 122);
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px;
+    font-size: large;
+    margin: 10px;
+}
 
+.filterDelete {
+    background-color: rgb(82, 76, 66);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 5px;
+    font-size: large;
+}
+
+
+.allcards {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
 }
